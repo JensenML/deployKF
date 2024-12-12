@@ -68,8 +68,8 @@ argocd:
   ##  - the value of `destination.name` takes precedence over `destination.server`
   ##
   destination:
-    server: https://kubernetes.default.svc
-    name: ""
+    server: https://10.10.1.9:6443
+    name: "k8s-dev-admin@k8s-dev"
 
 
 ## --------------------------------------------------------------------------------
@@ -237,7 +237,7 @@ deploykf_core:
       ## the hostname that the gateway will listen on
       ##  - subdomains of this hostname may also be used, depending on which apps are enabled
       ##
-      hostname: deploykf.example.com
+      hostname: deploykf.mgmt.local
 
       ## the ports that the gateway will listen on
       ##  - these are the "internal" ports which the gateway use, and can be different
