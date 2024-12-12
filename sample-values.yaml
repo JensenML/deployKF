@@ -237,7 +237,7 @@ deploykf_core:
       ## the hostname that the gateway will listen on
       ##  - subdomains of this hostname may also be used, depending on which apps are enabled
       ##
-      hostname: deploykf.mgmt.local
+      hostname: deploykf.dev.local
 
       ## the ports that the gateway will listen on
       ##  - these are the "internal" ports which the gateway use, and can be different
